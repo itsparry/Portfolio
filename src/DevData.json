@@ -1,0 +1,39 @@
+[
+    {
+        "key": 1,
+        "title": "Signup Flow",
+        "description": "A simple React Native signup flow with custom form validation that utilizes Redux. Error message to be displayed if the user has not correctly filled out the form with the expected type of input. ",
+        "tools":[
+            "React Native",
+            "Javascript",
+            "Redux",
+            "Xd"
+        ],
+        "previewUrl": "https://github.com/itsparry/signup-flow.git",
+        "image": "/images/signupflow.png"
+    },
+    {
+        "key": 2,
+        "title": "Map Content Display",
+        "description": "A share app for displaying posts that users shared from the Naka 2.0 app. It retreives post information such as location of post, the post, users who posted it, and the captions. ",
+        "tools":[
+            "Google Map Api",
+            "React",
+            "Redux",
+            "Xd"
+        ],
+        "previewUrl": "https://github.com/itsparry/signup-flow.git",
+        "image": "/images/mapshare.png"
+    },
+    {
+        "key": 3,
+        "title": "Portfolio site",
+        "description": "My portfolio site that you're currently on! look around!",
+        "tools":[
+            "React",
+            "Figma"
+        ],
+        "previewUrl": "https://github.com/itsparry/Portfolio.git",
+        "image": "/images/portfolio.png"
+    }
+]
