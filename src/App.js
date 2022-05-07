@@ -8,13 +8,17 @@ import './App.css';
 // import Tools from '../src/pages/Homepage/Tools'
 // import Footer from '../src/pages/Homepage/Footer'
 import Homepage from '../src/pages/Homepage/index'
+import Ux from './pages/Ux/Overview'
+import UserResearch from './pages/Ux/UserResearch';
 
 
 
 function App() {
   return (
     <div className="App">
-      <Homepage/>
+      {/* <Homepage/> */}
+      <Ux/>
+      <UserResearch/>
     </div>
   );
 }
