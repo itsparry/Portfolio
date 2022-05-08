@@ -7,10 +7,11 @@ import UxDesign from '../Homepage/UxDesign'
 import DevPortfolio from '../Homepage/DevPortfolio'
 import Tools from '../Homepage/Tools'
 import Footer from '../Homepage/Footer'
+import './homepageStyle.css'
 
 const Homepage = () => {
   return (
-    <>
+    <div >
         <TopNav/>
         <Header/>
         <About/>
@@ -18,7 +19,7 @@ const Homepage = () => {
         <DevPortfolio/>
         <Tools />
         <Footer />
-    </>
+    </div>
   )
 }
 

@@ -24,6 +24,7 @@ const UserResearch = () => {
             ],
             image: Michael
         }]
+       
   return (
     <div>
         <div>
@@ -57,7 +58,7 @@ const UserResearch = () => {
             <p>14 days</p>
             <Icon.Rightarrow/>
         </div>
-        
+
         <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
     </div>
   )
