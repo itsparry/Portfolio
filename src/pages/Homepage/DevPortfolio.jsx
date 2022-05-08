@@ -1,13 +1,14 @@
 import React from 'react'
 import Icon from '../../components/icon'
 import devData from '../../DevData.json'
+import { Element } from 'react-scroll'
 
 const DevPortfolio = () => {
   return (
-    <div>
+    <Element name= 'devPortfolio' >
         <div className='dev-title'>
-          <h2>Front-end Dev</h2>
-          <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
+        <h2>Front-end Dev</h2>
+        <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
         </div>
         <div className='dev-content-container'>
         {devData.map((project,i) =>(
@@ -34,7 +35,7 @@ const DevPortfolio = () => {
         <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
         <p>more coming soon...</p>
         </div>
-    </div>
+    </Element>
   )
 }
 
