@@ -5,32 +5,32 @@ import { Element } from 'react-scroll'
 
 const Footer = () => {
   return (
-    <Element name='contact'>
-        <div>
-            <div className='footer-title'>
-            <h2>Lets Create</h2>
-            <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
+    <Element name='contact' >
+        <div className='hp-container' >
+            <div className='hp-title-1'>
+                <h2>Lets Create</h2>
+                <hr className='footer-line'/>
             </div>
-            <div className='ux-content-container'>
-                <div>
-                    <p>Say Hi!</p>
-                    <a href='mailto:parry_chan@hotmail.com' target='_blank'>
+            <div className='c-content-container'>
+                <div className='email-con'>
+                    <p className='sayhi'>Say Hi!</p>
+                    <a href='mailto:parry_chan@hotmail.com' target='_blank' className='email'>
                         <span>parry_chan@hotmail.com</span>
                     </a>
                 </div>
-                <div>
+                <div className='c-i-con'>
                     <a href='mailto:parry_chan@hotmail.com' target='_blank'>
-                        <Icon.Email/>
+                        <Icon.Email className='icon-1'/>
                     </a>
                     <a href='https://www.linkedin.com/in/parry-chan/' target='_blank'>
-                        <Icon.Linkedin width='24' height='24' color='red'/>
+                        <Icon.Linkedin className='icon-1'/>
                     </a>
                     <a href='https://github.com/itsparry' target='_blank'>
-                        <Icon.Github/>
+                        <Icon.Github className='icon-1'/>
                     </a>
                 </div>
-                <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
             </div>
+            <hr className='bot-line-c'/>
         </div>
     </Element>
   )

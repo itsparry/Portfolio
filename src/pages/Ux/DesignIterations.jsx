@@ -13,14 +13,14 @@ const DesignIterations = () => {
     <div>
         <div className='tools-title'>
           <h2>Design & Iterations</h2>
-          <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
+          <hr/>
         </div>
         <div>
             {designs.map((design, i) => (
                         <div key={i} className="">
                             <img src={design.image}/>
                             <span className="">{design.name}</span>  
-                            <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
+                            <hr/>
                         </div>
                     ))}
             <a href='https://xd.adobe.com/view/b181c9ad-73c2-4419-9902-95b81812106b-e4d2/' target='_blank'>
@@ -29,7 +29,7 @@ const DesignIterations = () => {
             </a>
         </div>
         <p>more coming soon...</p>
-        <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
+        <hr/>
     </div>
   )
 }

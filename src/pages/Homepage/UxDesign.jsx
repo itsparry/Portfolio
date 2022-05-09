@@ -8,38 +8,36 @@ const UxDesign = () => {
   let navigate =useNavigate()
 
   return (
-    <Element name='designPortfolio'>
-        <div>
-            <div className='ux-title'>
-            <h2>UX Design</h2>
-            <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
+        <div className='hp-container'>
+            <div className='hp-title-2'>
+                <h1 className='ux-design'>UX Design</h1>
+                <hr className='ux-line'/>
             </div>
             <div className='ux-content-container'>
             {uxData.map((project,i) =>(
                 <div key={i}>
-                    <button onClick={() => {navigate('/naka-case-study')}}>
+                    <button onClick={() => {navigate('/naka-case-study')}} className='ux-button'>
                         <img src={project.image} className='ux-main-pic'/>
                     </button>
-                    <div>
-                        <p className='ux-main-title'>{project.title}</p>
+                    <div className='bot-container ux-bot-container'>
+                        <p className='subtitle'>{project.title}</p>
                         <div className='ux-icon-container'>
                             <div className='icon-name'>
-                                <Icon.Figma />
-                                <p>Figma</p>
+                                <Icon.Figma className='icon-2'/>
+                                <p className='icon-subtitle'>Figma</p>
                             </div>
                             <a href={project.previewUrl} target="_blank" className='icon-name'>
-                                <Icon.Xd />
-                                <p>Figma</p>
+                                <Icon.Xd className='icon-1'/>
+                                <p className='icon-subtitle-xd'>Xd</p>
                             </a>
                         </div>
                     </div>
                 </div>
             ))}
-            <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
-            <p>more coming soon...</p>
+            <hr/>
+            <p className='mcs'>more coming soon...</p>
             </div>
         </div>
-    </Element>
   )
 }
 

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Link, animateScroll } from 'react-scroll/modules';
+import '../../style/everything.css'
 
 const TopNav = () => {
   const navItems = [
@@ -11,20 +12,20 @@ const TopNav = () => {
   const location = useLocation();
 
   return (
-    <div className='Nav'>
-        <nav id='header-nav' style={{position:'fixed'}}>
-            <ul className=''>
+    <div className='nav'>
+        <nav id='header-nav' className='header-nav' >
+            <ul className='nav-list'>
                 {navItems.map((item, i) => (
-                <li key={i} className=''>
-                    <Link  onClick={() => { item.name === "home" && location.pathname === '/'? (animateScroll.scrollToTop()) : (navigate('/'))}} to={item.name} smooth={true} duration={1500}>
-                    <span>{item.title}</span>
+                <li key={i} className='nav-listing'>
+                    <Link onClick={() => { item.name === "home" && location.pathname === '/'? (animateScroll.scrollToTop()) : (navigate('/'))}} to={item.name} smooth={true} duration={1500}>
+                        <span>{item.title}</span>
                     </Link>                
                 </li>
                 ))}
-                <a href="" target="_blank" rel="noreferrer noopener">
-                <li className=''>
-                    <span>Resume</span>
-                </li>
+                <a href="" target="_blank" rel="noreferrer noopener" className='nav-button'>
+                    <li>
+                        <span>Resume</span>
+                    </li>
                 </a>
             </ul>
         </nav>

@@ -3,42 +3,41 @@ import Icon from '../../components/icon'
 
 const Tools = () => {
     const classes = {
-        toolIcon:'',
+        toolIcon: {width:'60px', height: 'auto'},
         toolIconBW: "",
-        toolIconColour: "red"
+        toolIconColour: "white"
       }
 
       const tools = [
-        {name: 'HTML5', icon: <Icon.Html className={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'CSS3', icon: <Icon.Css className={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'Javascript', icon: <Icon.Js className={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'Git', icon: <Icon.Git className={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'React', icon: <Icon.React className={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'React Native', icon: <Icon.React className={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'Redux', icon: <Icon.Redux className={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'Python', icon: <Icon.Python className={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'Adobe Xd', icon: <Icon.Xd className={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'Figma', icon: <Icon.Figma className={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />}
+        {name: 'HTML5', icon: <Icon.Html style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
+        {name: 'CSS3', icon: <Icon.Css style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
+        {name: 'Javascript', icon: <Icon.Js style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
+        {name: 'Git', icon: <Icon.Git style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
+        {name: 'React', icon: <Icon.React style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
+        {name: 'React Native', icon: <Icon.React style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
+        {name: 'Redux', icon: <Icon.Redux style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
+        {name: 'Python', icon: <Icon.Python style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
+        {name: 'Adobe Xd', icon: <Icon.Xd style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
+        {name: 'Figma', icon: <Icon.Figma style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />}
       ]
 
   return (
-    <div>
-        <div className='tools-title'>
-          <h2>Tools</h2>
-          <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
+    <div className='hp-container'>
+        <div className='hp-title-2'>
+          <h1 className='tools'>Tools</h1>
+          <hr className='tool-line'/>
         </div>
-        <div>
+        <div className='tool-grid'>
             {tools.map((tool, i) => (
-                        <div key={i} className="">
-                            <div className="">
-                            {tool.icon}
-                            </div>
-                            <span className="">{tool.name}</span>  
-                        </div>
+                <div key={i} className='t-i-n'>
+                    <div className='icon-3'>{tool.icon}</div>
+                    <div className='tool-name'>{tool.name}</div>  
+                </div>
                     ))}
         </div>
-        <p>more coming soon...</p>
-        <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
+        <p className='mcs-t'>more coming soon...</p>
+        <hr className='bot-line'/>
+        
     </div>
   )
 }

@@ -23,7 +23,7 @@ const Feedback = () => {
     <div>
         <div>
             <h4>Feedback</h4>
-            <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
+            <hr/>
         </div>
         <div>
             <div>
