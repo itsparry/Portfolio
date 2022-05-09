@@ -9,7 +9,7 @@ import './App.css';
 // import Footer from '../src/pages/Homepage/Footer'
 import Homepage from '../src/pages/Homepage/index'
 import Ux from '../src/pages/Ux'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import TopNav from './pages/Homepage/TopNav';
 import Footer from './pages/Homepage/Footer';
 

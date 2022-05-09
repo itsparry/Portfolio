@@ -29,7 +29,7 @@ const UserResearch = () => {
     <div>
         <div>
             <h4>User Research</h4>
-            <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
+            <hr/>
         </div>
         <div>
             {audiences.map((audience,i)=>(
@@ -48,7 +48,7 @@ const UserResearch = () => {
                     </div>
                 </div>
             ))}
-            <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
+            <hr/>
         </div>
         <div>
             <p>40 participants</p>
@@ -59,7 +59,7 @@ const UserResearch = () => {
             <Icon.Rightarrow/>
         </div>
 
-        <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
+        <hr/>
     </div>
   )
 }

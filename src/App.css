@@ -4,17 +4,12 @@
   box-sizing: border-box; 
 }
 
-.html {
+.html, .body {
   height: 100%;
   width: 100%;
-  background-color: #282c34;
 }
 
-.body {
-  background-color: #282c34;
-  height: 100%;
-  width: 100%;
-}
+
 
 .App {
   text-align: center;

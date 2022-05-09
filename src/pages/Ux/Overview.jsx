@@ -17,7 +17,7 @@ const Overview = () => {
                     <p>Adobe Xd</p>
                 </a>
             </div>
-            <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
+            <hr/>
             <div>
                 <p>Making a physical friend in the age of internet is challenging. A poll shows that 30% of the 
                     millennials do not have a single friend. There are 7 billion people in this world but there 
@@ -44,7 +44,7 @@ const Overview = () => {
                     </p>
                 </div>
             </div>
-            <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
+            <hr/>
         </div>
     </div>
   )

@@ -5,37 +5,39 @@ import { Element } from 'react-scroll'
 
 const DevPortfolio = () => {
   return (
-    <Element name= 'devPortfolio' >
-        <div className='dev-title'>
-        <h2>Front-end Dev</h2>
-        <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
+    <div className= 'hp-container' >
+        <div className='hp-title-1'>
+            <h2>Front-end Dev</h2>
+            <hr className='dev-line'/>
         </div>
-        <div className='dev-content-container'>
-        {devData.map((project,i) =>(
-            <div key={i}>
-                <div>
-                    <img src={project.image} className='dev-main-pic'/>
-                    <div>
-                        <p>{project.description}</p>
-                        {project.tools.map((tool,i) => (
-                            <ul key={i}>
-                                <li>{tool}</li>
-                            </ul>
-                        ))}
+        <div className='dev-content-grid'>
+            {devData.map((project,i) =>(
+                <div key={i}  className={project.title === 'Map Content Display'? 'dev-content-mcd' :'dev-content-container'}>
+                    <div className='dev-i-d'>
+                        <img src={project.image} className='dev-main-pic'/>
+                        <div className='dev-d-container'>
+                            <p className='p-des'>{project.description}</p>
+                            <div className='tech-l-c' >
+                            {project.tools.map((tool,i) => ( 
+                                <ul key={i} className='techused'>
+                                    <li>{tool}</li>
+                                </ul>
+                            ))}
+                            </div>
+                        </div>
                     </div>
+                    <div className='bot-container'>
+                        <p className='subtitle'>{project.title}</p>
+                        <a href={project.previewUrl} target="_blank" className='icon-name'>
+                            <Icon.Github className='icon-1'/>
+                        </a>
+                    </div>
+                    <hr className='bot-line'/>
                 </div>
-                <div>
-                    <p className='dev-main-title'>{project.title}</p>
-                    <a href={project.previewUrl} target="_blank" className='icon-name'>
-                        <Icon.Github />
-                    </a>
-                </div>
-            </div>
-        ))}
-        <hr style={{color: 'red', backgroundColor: 'blue', height: 5}}/>
-        <p>more coming soon...</p>
+            ))}
         </div>
-    </Element>
+        <p className='mcs'>more coming soon...</p>
+    </div>
   )
 }
 
