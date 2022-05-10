@@ -10,26 +10,24 @@ const DesignIterations = () => {
         {name: 'Typography & Colors', image: require('../../assets/typo.png')}
       ]
   return (
-    <div>
-        <div className='tools-title'>
-          <h2>Design & Iterations</h2>
-          <hr/>
+    <div className='ux-con'>
+        <div className='ux-ti-con'>
+          <h2 className='ux-ti'>Design & Iterations</h2>
+          <hr className='bot-line'/>
         </div>
-        <div>
+        <div className='di-grid'>
             {designs.map((design, i) => (
-                        <div key={i} className="">
-                            <img src={design.image}/>
-                            <span className="">{design.name}</span>  
+                        <div key={i} className='di-content-container'>
+                            <img src={design.image} className='di-main-pic'/>
+                            <span className='di-name'>{design.name}</span>  
                             <hr/>
                         </div>
                     ))}
-            <a href='https://xd.adobe.com/view/b181c9ad-73c2-4419-9902-95b81812106b-e4d2/' target='_blank'>
-                <Icon.Xd/>
-                <p>Try it on Xd!</p>
+            <a href='https://xd.adobe.com/view/b181c9ad-73c2-4419-9902-95b81812106b-e4d2/' target='_blank' className='di-xd-con'>
+                <Icon.Xd className='icon-1-1'/>
+                <p className='tryxd'>Try it on Xd!</p>
             </a>
         </div>
-        <p>more coming soon...</p>
-        <hr/>
     </div>
   )
 }

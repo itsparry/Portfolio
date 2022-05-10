@@ -25,7 +25,7 @@ const Tools = () => {
     <div className='hp-container'>
         <div className='hp-title-2'>
           <h1 className='tools'>Tools</h1>
-          <hr className='tool-line'/>
+          <hr className='bot-line'/>
         </div>
         <div className='tool-grid'>
             {tools.map((tool, i) => (

@@ -8,7 +8,8 @@
   
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
-  --fs-h3: 4.5rem;
+  --fs-h3: 4rem;
+  --fs-h4: 3rem;
 
   --fs-p1: 1rem;
   --fs-p2: 1rem;
@@ -23,6 +24,7 @@
     --fs-h1: 8.5rem;
     --fs-h2: 6.25rem;
     --fs-h3: 9.5rem;
+    --fs-h4: 6rem;
     --fs-p1: 2rem;
     --fs-p2: 1rem;
     --fs-p3: 1rem;

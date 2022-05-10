@@ -7,7 +7,7 @@ const About = () => {
     <div className='hp-container'>
         <div className='hp-title-1'>
           <h1 className='me'>Me</h1> 
-          <hr className='me-line'/>
+          <hr className='bot-line'/>
         </div>
         <div className='me-content-cr'>
           <img src={Myphoto} className='myphoto'/>

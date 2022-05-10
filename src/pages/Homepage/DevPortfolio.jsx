@@ -8,7 +8,7 @@ const DevPortfolio = () => {
     <div className= 'hp-container' >
         <div className='hp-title-1'>
             <h2>Front-end Dev</h2>
-            <hr className='dev-line'/>
+            <hr className='bot-line'/>
         </div>
         <div className='dev-content-grid'>
             {devData.map((project,i) =>(
