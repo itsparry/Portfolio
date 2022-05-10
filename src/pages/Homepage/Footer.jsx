@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='hp-container' >
             <div className='hp-title-1'>
                 <h2>Lets Create</h2>
-                <hr className='footer-line'/>
+                <hr className='bot-line'/>
             </div>
             <div className='c-content-container'>
                 <div className='email-con'>

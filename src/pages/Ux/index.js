@@ -1,28 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../Homepage/Footer'
 import TopNav from '../Homepage/TopNav'
 import DesignIterations from './DesignIterations'
 import Feedback from './Feedback'
 import Overview from './Overview'
+import SamplePics from './SamplePics'
 import UserResearch from './UserResearch'
+import './UxDesign.css'
 
-const index = () => {
+const Ux = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
       <div>
-        <TopNav/>
         <Overview/>
         <UserResearch/>
         <DesignIterations/>
         <Feedback/>
-        <div>
-            <img src={require('../../assets/screen1.png')} />
-            <img src={require('../../assets/screen2.png')} />
-            <img src={require('../../assets/screen3.png')} />
-            <img src={require('../../assets/screen4.png')} />
-        </div>
-        <Footer/>
+        <SamplePics/>
     </div>
   )
 }
 
-export default index
+export default Ux

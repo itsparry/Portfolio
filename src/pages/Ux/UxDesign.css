@@ -1,0 +1,538 @@
+
+/*everything else */
+.ux-con {
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.icon-1 {
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1rem;
+}
+
+.icon-1:hover {
+    color: var(--color-2);
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1rem;
+}
+
+.icon-1-1:hover {
+    color: var(--color-2);
+  
+}
+
+.icon-2 {
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1rem;
+}
+
+@media (min-width: 800px){
+    .icon-1 {
+        color: white;
+        width: 2rem;
+        height: 2rem;
+        margin-left: 1rem;
+    }
+
+    .icon-1:hover {
+        color: var(--color-2);
+        width: 2rem;
+        height: 2rem;
+        margin-left: 1rem;
+    }
+
+    .icon-2 {
+        color: white;
+        width: 2rem;
+        height: 2rem;
+        margin-left: 1rem;
+    }
+}
+
+
+/* HI IM PARRY */
+
+.ux-m-title-con {
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.ux-m-title{
+    font-size: var(--fs-h3);
+    margin-bottom: 0.5rem;
+    color: #FFFFFF;
+}
+
+.ux-m-subtitle {
+    color: #FFFFFF;
+    width: 100%;
+    margin-top: .5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.cover-pic {
+    /* The image used */
+    background-image: url( '../../../public/images/nakacov.png');
+    
+  /* Set a specific height */
+  height: 20rem;
+  width: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50rem;
+}
+
+.role-ic {
+    display: flex;
+    flex-direction: row;
+}
+
+.role {
+    flex: 4;
+}
+
+.ic-con-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.ad-xd {
+    font-size: var(--fs-p2);
+}
+
+.ux-line-2 {
+    width: 100%;
+    margin: 0.5rem 0 1rem;
+}
+
+.sub-m-con {
+    margin: 1rem 0 1rem;
+    color: white;
+}
+
+.sub-m-con-ti {
+    margin-bottom: 0.25rem;
+}
+
+
+
+
+@media (min-width: 800px) {
+    .cover-pic {
+        /* The image used */
+        background-image: url( '../../../public/images/nakacov.png');
+        
+      /* Set a specific height */
+      height: 100vh;
+      width: 100%;
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 150rem;
+
+    }
+    
+    .ux-con {
+        padding: 3rem 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .ux-m-title-con {
+        font-size: var(--fs-h3);
+        margin-bottom: 0.5rem;
+        color: #FFFFFF;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ux-m-title {
+        font-size: var(--fs-h3);
+        margin: 0;
+        color: #FFFFFF;
+        font-size: 30rem;
+        padding: 0;
+      
+    }
+
+    .ux-m-subtitle {
+        color: #FFFFFF;
+        width: 100%;
+        margin-top: .5rem;
+        font-size: 1rem;
+        text-align: center;
+    
+    }
+
+
+    .role-ic {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: var(--fs-p2);
+
+        width: 100%;
+    }
+
+
+    .ic-con-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+    }
+
+    .naka-xd-ic{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    .ad-xd {
+        display: flex;
+        font-size: var(--fs-p2);
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .ux-line-2 {
+        width: 100%;
+        margin: 0.5rem 0 1rem;
+    }
+
+    .sub-m-con {
+        margin: 2rem 0 1rem;
+        color: white;
+    }
+
+    .sub-m-con-ti {
+        margin-bottom: 0.25rem;
+    }
+
+    .ov-cont-con{
+        font-size: var(--fs-p2);
+        margin-top: 0.5rem;
+    }
+    
+}
+
+/* USER RESEARCH */
+.ux-ti-con {
+    color: white;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ux-ti {
+    font-size: var(--fs-h4);
+}
+
+.ux-img-des {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.us-img {
+    display: flex;
+    object-fit: contain;
+    justify-content: flex-start;
+    height: 15rem;
+    width: auto;
+    background-color: aqua;
+}
+
+.us-des-con {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.des {
+    margin-bottom: 1rem;
+}
+
+.na-st-con {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0 0.5rem;
+    font-weight: var(--fw-bold);
+}
+
+.exp-fl-con {
+    color: #FFFFFF;
+    margin: 2rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.fl-icon {
+    height: 1rem;
+    width: auto;
+    margin: 0 0.5rem 0;
+}
+
+.exp-fl-p{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.info-pts-con {
+    color: #FFFFFF;
+    margin: 0.5rem 0 1rem;
+}
+
+.info-ti{
+    font-size: 1.4rem;
+    margin: 1.5rem 0 1rem;
+}
+
+.pts-con {
+    list-style: none;
+    font-size: 1rem;
+}
+
+.pts {
+    margin: 0.5rem 0 0.5rem;
+}
+.comppic{
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 800px) {
+    .ux-ti-con {
+        color: white;
+        margin-bottom: 0.5rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ux-ti {
+        font-size: var(--fs-h4);
+    }
+    
+    .u-con-con {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .u-con {
+       width: 50%;
+       margin-top: 2rem;
+    }
+   
+    .ux-img-des {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+
+    .us-img {
+        display: flex;
+        object-fit: contain;
+        justify-content: flex-start;
+        height: 15rem;
+        width: auto;
+        background-color: aqua;
+    }
+    
+    .us-des-con {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        margin-left: 1rem;
+    }
+    
+    .des {
+        margin-bottom: 1rem;
+        font-size: var(--fs-p2);
+    }
+    
+    .na-st-con {
+        font-size: var(--fs-p2);
+    }
+    
+    
+    .exp-fl-con {
+        color: #FFFFFF;
+        margin: 5rem 0 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .fl-icon {
+        height: 2rem;
+        width: auto;
+        margin: 0 2rem 0;
+    }
+    
+    .exp-fl-p{
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .info-pts-con {
+        color: #FFFFFF;
+        margin: 0.5rem 0 1rem;
+        
+    }
+    
+    .info-con{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        width: 100%;
+
+     
+    }
+    
+    .info-ti {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .gps{
+        font-size: var(--fs-p2);
+        font-weight: var(--fw-bold);
+        margin-bottom: 3.2rem;
+    }
+    .pts-con {
+        margin-bottom: 1rem;
+    }
+    .comppic{
+        margin: 3rem 0 2rem;
+        object-fit: contain;
+        height: 30rem;
+    }
+}
+
+/* Design & Iterations*/
+
+@media(min-width:800px) {
+    .di-grid {
+        display: inline-grid; 
+        grid-template-columns: 1fr 1fr;
+    
+        grid-gap: 2rem;
+
+    }
+
+    .di-content-container{
+        max-width: 40rem;
+        color: #FFFFFF;
+        margin-top: 2rem;
+   
+    }
+    .di-main-pic {
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    
+    .di-name {
+        font-size: var(--fs-p2);
+        font-weight: var(--fw-bold);
+    }
+
+    .di-xd-con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    
+    .icon-1-1{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .tryxd {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        font-weight: var(--fw-bold);
+    }
+}
+
+
+/*FEEDBACK*/
+
+.fe-1 {
+    margin-top: 2rem;
+}
+
+
+/*SAMPLE PICS*/
+
+@media(min-width: 800px) {
+    .sp-grid {
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        row-gap: 5rem;
+        column-gap: 2rem;
+        margin: 4rem 0 ;
+
+    }
+
+    .sp-img-con {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+
+    .sp-img {
+        display: flex;
+        object-fit: contain;
+
+    }
+
+}

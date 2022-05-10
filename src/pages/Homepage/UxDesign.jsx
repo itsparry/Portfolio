@@ -11,7 +11,7 @@ const UxDesign = () => {
         <div className='hp-container'>
             <div className='hp-title-2'>
                 <h1 className='ux-design'>UX Design</h1>
-                <hr className='ux-line'/>
+                <hr className='bot-line'/>
             </div>
             <div className='ux-content-container'>
             {uxData.map((project,i) =>(
