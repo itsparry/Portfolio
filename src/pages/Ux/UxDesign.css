@@ -466,6 +466,45 @@
 }
 
 /* Design & Iterations*/
+.di-content-container {
+    color: #FFFFFF;
+    margin: 1.5rem 0 1rem;
+}
+
+.di-name {
+    margin: 5rem 0 5rem;
+}
+
+.xd-link-con {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0 5rem;
+}
+
+.di-xd-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.di-xd-con:hover{
+    color: var(--color-2);
+}
+
+.icon-1-1 {
+    width: 4rem;
+    height: 4rem;
+}
+
+.tryxd {
+    margin: 0.5rem;
+}
+
+
 
 @media(min-width:800px) {
     .di-grid {

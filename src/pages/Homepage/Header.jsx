@@ -12,7 +12,7 @@ const Header = () => {
           <a href='mailto:parry_chan@hotmail.com' target='_blank' className='header-s-3' rel="noreferrer">
             <div className='header-s-3' >
               <span className='lets-talk'>Lets talk!</span>
-              <hr className='header-line'/>
+              <span><hr className='header-line'/></span>
             </div>
           </a>
         </div>
