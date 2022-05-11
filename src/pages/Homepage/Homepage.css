@@ -70,6 +70,22 @@
         margin: 0;
     }
 
+    .icon-name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0.3rem;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .icon-name:hover {
+        color: var(--color-2);
+
+
+    }
+
 }
 
 
@@ -372,7 +388,7 @@
 }
 
 .ux-main-pic:hover {
-   transform: scale(1.05);
+   transform: scale(1.01);
 }
 
 .ux-icon-container {
@@ -404,6 +420,7 @@
     font-size: var(--fs-p2);
     padding-left: 0.8rem;
     padding-top: 0.2rem;
+
 }
 
 .mcs {
@@ -476,6 +493,14 @@
 }
 
 @media (min-width: 800px) {
+    .dev-p-link {
+        transition: transform .2s;
+    }
+
+
+    .dev-p-link:hover {
+       transform: scale(1.01);
+    }
     .dev-line {
         width: 70%;
         margin-left: 4rem;
@@ -588,6 +613,15 @@
 
 
 /*Footer*/
+.footer-container {
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
 .footer-line{
     width: 70%;
     margin-left: 1.5rem;
@@ -628,6 +662,14 @@
 }
 
 @media(min-width: 800px) {
+    .footer-container {
+        padding: 0rem 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
     .footer-line{
         width: 70%;
         margin-left: 5rem;
@@ -635,6 +677,11 @@
 
     .c-content-container {
         margin: 2rem 0 4rem 0;
+    }
+
+    .p-c-con {
+        margin: 1rem 0 2rem;
+        font-size: 1rem;
     }
 }
 

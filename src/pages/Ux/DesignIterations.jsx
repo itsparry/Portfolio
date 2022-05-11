@@ -23,10 +23,12 @@ const DesignIterations = () => {
                             <hr/>
                         </div>
                     ))}
-            <a href='https://xd.adobe.com/view/b181c9ad-73c2-4419-9902-95b81812106b-e4d2/' target='_blank' className='di-xd-con'>
-                <Icon.Xd className='icon-1-1'/>
-                <p className='tryxd'>Try it on Xd!</p>
-            </a>
+            <div className='xd-link-con'>
+              <a href='https://xd.adobe.com/view/b181c9ad-73c2-4419-9902-95b81812106b-e4d2/' target='_blank' className='di-xd-con'>
+                  <Icon.Xd className='icon-1-1'/>
+                  <span className='tryxd'>Try it on Xd!</span>
+              </a>
+            </div>
         </div>
     </div>
   )
