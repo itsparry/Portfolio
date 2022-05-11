@@ -20,8 +20,8 @@ const Overview = () => {
                 <div className='ic-con-1'>
                     <a href='https://xd.adobe.com/view/b181c9ad-73c2-4419-9902-95b81812106b-e4d2/' target='_blank' className='naka-xd-ic'>
                         <Icon.Xd className='icon-1'/>
+                        <span className='ad-xd'>Adobe</span>
                     </a>
-                    <p className='ad-xd'>Adobe</p>
                 </div>
             </div>
             <hr className='ux-line-2'/>

@@ -22,7 +22,7 @@ const TopNav = () => {
                     </Link>                
                 </li>
                 ))}
-                <a href="" target="_blank" rel="noreferrer noopener" className='nav-button'>
+                <a href="/resume/parry_chan_resume.pdf" target="_blank" rel="noreferrer noopener" className='nav-button'>
                     <li>
                         <span>Resume</span>
                     </li>

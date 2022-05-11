@@ -1,7 +1,6 @@
 import React from 'react'
 import Icon from '../../components/icon'
 import devData from '../../DevData.json'
-import { Element } from 'react-scroll'
 
 const DevPortfolio = () => {
   return (
@@ -14,7 +13,9 @@ const DevPortfolio = () => {
             {devData.map((project,i) =>(
                 <div key={i}  className={project.title === 'Map Content Display'? 'dev-content-mcd' :'dev-content-container'}>
                     <div className='dev-i-d'>
-                        <img src={project.image} className='dev-main-pic'/>
+                        <a href={project.previewUrl} target="_blank" className='dev-p-link' rel="noreferrer noopener">
+                            <img src={project.image} className='dev-main-pic' alt='pics of my projects'/>
+                        </a>
                         <div className='dev-d-container'>
                             <p className='p-des'>{project.description}</p>
                             <div className='tech-l-c' >
@@ -28,7 +29,7 @@ const DevPortfolio = () => {
                     </div>
                     <div className='bot-container'>
                         <p className='subtitle'>{project.title}</p>
-                        <a href={project.previewUrl} target="_blank" className='icon-name'>
+                        <a href={project.previewUrl} target="_blank" className='icon-name' rel="noreferrer noopener">
                             <Icon.Github className='icon-1'/>
                         </a>
                     </div>

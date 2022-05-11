@@ -9,7 +9,7 @@ const Header = () => {
         <span className='header-s-1'>Product Designer + Front-end Developer</span>
         <div className='lets-talk-container'>
           <span className='header-s-2'>Seeking opportunities</span>
-          <a href='mailto:parry_chan@hotmail.com' target='_blank' className='header-s-3'>
+          <a href='mailto:parry_chan@hotmail.com' target='_blank' className='header-s-3' rel="noreferrer">
             <div className='header-s-3' >
               <span className='lets-talk'>Lets talk!</span>
               <hr className='header-line'/>

@@ -1,6 +1,4 @@
 import React, { useEffect } from 'react'
-import Footer from '../Homepage/Footer'
-import TopNav from '../Homepage/TopNav'
 import DesignIterations from './DesignIterations'
 import Feedback from './Feedback'
 import Overview from './Overview'

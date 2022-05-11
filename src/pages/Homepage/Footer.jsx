@@ -6,7 +6,7 @@ import { Element } from 'react-scroll'
 const Footer = () => {
   return (
     <Element name='contact' >
-        <div className='hp-container' >
+        <div className='footer-container' >
             <div className='hp-title-1'>
                 <h2>Lets Create</h2>
                 <hr className='bot-line'/>
@@ -31,6 +31,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr className='bot-line-c'/>
+            <div className='p-c-con'><p className='p-c'>Parry &copy; 2022</p></div>
         </div>
     </Element>
   )

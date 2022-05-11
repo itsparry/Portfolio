@@ -215,14 +215,26 @@
 
     .naka-xd-ic{
         display: flex;
+        flex-direction: column;
         justify-content: flex-end;
+        align-items: flex-end;
         width: 100%;
         margin-bottom: 0.5rem;
+        color: #FFFFFF;
+        text-decoration: none;
     }
+
+
+    .naka-xd-ic:hover {
+        color: var(--color-2);
+    }
+
+
     .ad-xd {
         display: flex;
-        font-size: var(--fs-p2);
+        align-items: flex-end;
         justify-content: flex-end;
+        font-size: var(--fs-p2);
         width: 100%;
     }
 
@@ -481,6 +493,12 @@
         font-weight: var(--fw-bold);
     }
 
+    .xd-link-con {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .di-xd-con{
         display: flex;
         flex-direction: column;
@@ -488,6 +506,11 @@
         align-items: center;
         text-decoration: none;
         color: #FFFFFF;
+    }
+
+
+    .di-xd-con:hover{
+        color: var(--color-2);
     }
     
     .icon-1-1{
