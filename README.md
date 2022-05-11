@@ -5,6 +5,6 @@ This project was created with
 <ul>
   <li>React</li>
   <li>Javascript</li>
-  <li>love</li>
-  <li>traditional CSS cuz why not </li>
+  <li>Love</li>
+  <li>Traditional CSS cuz why not </li>
 </ul>
