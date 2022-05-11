@@ -6,4 +6,5 @@ This project was created with
   <li>React</li>
   <li>Javascript</li>
   <li>love</li>
+  <li>traditional CSS cuz why not </li>
 </ul>
