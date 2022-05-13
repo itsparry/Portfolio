@@ -82,8 +82,6 @@
 
     .icon-name:hover {
         color: var(--color-2);
-
-
     }
 
 }
@@ -182,8 +180,14 @@
 }
 
 .parry {
-    font-size: var(--fs-h3);
+    font-size: 2.5rem;
     margin-bottom: 0.5rem;
+}
+
+.pdfd {
+    margin-bottom: 0.5rem;
+    color: #FFFFFF;
+    font-size: 0.85rem;
 }
 .header-subtitle-container {
     display: flex;
@@ -212,6 +216,13 @@
     color: #FFFFFF;
     font-size: var(--fs-p3)
 }
+
+.seekops {
+    text-decoration: none;
+    color: red;
+    font-size: var(--fs-p3)
+}
+
 .header-s-3 {
     text-decoration: none;
     color: #FFFFFF;
@@ -253,6 +264,12 @@
     .header-s-1 {
         margin-bottom: 2rem;
     }
+
+    .pdfd {
+        margin-bottom: 0.5rem;
+        color: #FFFFFF;
+        font-size: var(--fs-p3);
+    }
     .lets-talk-container {
         display: flex;
         flex-direction: row;
@@ -262,6 +279,12 @@
     .header-s-3 {
         text-decoration: none;
         color: #FFFFFF;
+    }
+
+    .seekops {
+        text-decoration: none;
+        color: red;
+        font-size: var(--fs-p3)
     }
     
 }
@@ -402,6 +425,12 @@
     justify-content: center;
     align-items: center;
     margin-left: 0.3rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.icon-name:hover {
+    color: var(--color-2);
 }
 
 .ux-bot-container {
@@ -492,6 +521,10 @@
 
 }
 
+.dev-content-mcd {
+    margin-bottom: 3rem;
+}
+
 @media (min-width: 800px) {
     .dev-p-link {
         transition: transform .2s;
@@ -566,8 +599,8 @@
 
 .tool-grid {
     display: grid; 
-    grid-template-columns: repeat(5, 1fr);
-    grid-auto-rows: (1fr, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: repeat(4, 1fr);
     grid-gap: 2rem;
     width: 100%;
     margin-bottom: 1rem;
@@ -578,16 +611,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 3rem;
+    width: 3rem;
 
 }
 
 .icon-3 {
-    max-width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .tool-name {
+    display: flex;
+    justify-content: center;
     color: #FFFFFF;
     font-size: 0.6rem;
+    width: 100%;
+    margin-top: 0.5rem;
 }
 
 .mcs-t {
@@ -599,16 +642,47 @@
 
     .tool-grid {
         display: grid; 
+        align-items: center;
+        justify-content: center;
         grid-template-columns: repeat(5, 1fr);
         grid-auto-rows: (1fr, 1fr);
-        grid-gap: 10rem;
+        grid-gap: 7rem;
         width: 100%;
+        margin: 2rem 0 2rem;
     }
 
     .mcs-t {
         font-size: var(--fs-p2);
         font-weight: var(--fw-bold);
     }
+
+    .t-i-n {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0 1rem ;
+        width: 100%;
+
+    
+    }
+
+
+    .icon-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        height: 4rem;
+
+    }
+
+    .tool-name {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
 }
 
 
@@ -629,6 +703,7 @@
 .c-content-container {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin: 2rem 0;
@@ -638,22 +713,33 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .sayhi {
+    text-align: center;
     margin-right: 2rem;
     font-weight: var(--fw-bold);
     font-size: var(--fs-p2);
+    font-size: 1rem;
 }
 
 .email {
     color: #FFFFFF;
     text-decoration: none;
     font-size: var(--fs-p2);
+    display: flex;
 }
 
 .email:hover {
     color:var(--color-2)
+}
+
+.c-i-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
 }
 
 .bot-line-c {
@@ -674,9 +760,23 @@
         width: 70%;
         margin-left: 5rem;
     }
-
     .c-content-container {
+        display: flex;
+        flex-direction: row;
         margin: 2rem 0 4rem 0;
+    }
+
+  
+
+    .sayhi {
+        width: 100%;
+    }
+
+    .c-i-con {
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
     }
 
     .p-c-con {

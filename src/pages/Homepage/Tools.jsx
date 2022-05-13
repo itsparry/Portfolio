@@ -3,22 +3,20 @@ import Icon from '../../components/icon'
 
 const Tools = () => {
     const classes = {
-        toolIcon: {width:'60px', height: 'auto'},
-        toolIconBW: "",
         toolIconColour: "white"
       }
 
       const tools = [
-        {name: 'HTML5', icon: <Icon.Html style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'CSS3', icon: <Icon.Css style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'Javascript', icon: <Icon.Js style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'Git', icon: <Icon.Git style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'React', icon: <Icon.React style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'React Native', icon: <Icon.React style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'Redux', icon: <Icon.Redux style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'Python', icon: <Icon.Python style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'Adobe Xd', icon: <Icon.Xd style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />},
-        {name: 'Figma', icon: <Icon.Figma style={classes.toolIcon} bw={classes.toolIconBW} color={classes.toolIconColour} />}
+        {name: 'HTML5', icon: <Icon.Html  color={classes.toolIconColour} />},
+        {name: 'CSS3', icon: <Icon.Css  color={classes.toolIconColour} />},
+        {name: 'Javascript', icon: <Icon.Js  color={classes.toolIconColour} />},
+        {name: 'Git', icon: <Icon.Git  color={classes.toolIconColour} />},
+        {name: 'React', icon: <Icon.React color={classes.toolIconColour} />},
+        {name: 'React Native', icon: <Icon.React   color={classes.toolIconColour} />},
+        {name: 'Redux', icon: <Icon.Redux color={classes.toolIconColour} />},
+        {name: 'Python', icon: <Icon.Python color={classes.toolIconColour} />},
+        {name: 'Adobe Xd', icon: <Icon.Xd color={classes.toolIconColour} />},
+        {name: 'Figma', icon: <Icon.Figma color={classes.toolIconColour} />}
       ]
 
   return (
